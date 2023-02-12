@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{
+            <!-- width: 1100px; -->
+            <!-- height: 700px; -->
+            border: 2px solid black;
+        }
+        
+        .header{
+            <!-- height: 100px; -->
+            <!-- width: 1100px; -->
+            border: 1px solid red;
+            background-color:black;
+            
+        }
+        .img1 img{
+            height: 70px;
+            width: 70px;
+            margin-left: 170px;
+            margin-top: 10px;
+        }
+        .img1{
+            display: inline-block;
+        }
+        .topnav{
+            display:inline-block ;
+            height: 20px;
+            <!-- width: 70px; -->
+            border: 5px  solid yellow;
+            float: right;
+            
+            
+            
+         }
+         .topnav a{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 50px;
+            color: white;
+            text-decoration: none;
+             
+         }
+         .center1{
+            height: auto;
+            width: 550px;
+            align-items: ;
+            margin-right: 400px;
+            background-color: 1px solid black;
+            float: right;
+         }
+         
+         .text{
+            height: 70px;
+            width: 400px;
+            
+            margin-left: 120px;
+            margin-top: 0px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+        
+            
+         }
+         .sidebar{
+            display: inline-block;
+            width: 300px;
+            height: 600px;
+            border: 1px solid black;
+            background-color: darkslategrey;
+            font-size: 20px;
+
+        }
+
+            
+        .main{
+            height:auto; 
+            width: 900px; 
+       
+          }
+        .header1{
+             height: 60px; 
+             width: 700px;
+             
+          
+            background-color:darkgoldenrod;
+            margin-top: 28px;
+            
+            
+            
+        }
+        .topnav1{
+            display:inline-block ;
+            
+          
+            
+             
+            
+            
+            
+            
+            
+         }
+         .topnav1 a{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 14px;
+            margin-left: 10px;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 10px;
+            }
+            .textbox{
+                height: 70px; 
+                width: 900px; 
+              
+               margin-top: 20px;
+               font-size: 30px;
+               margin-left: 200px;
+               margin-top: 20px;
+            
+               
+
+            }
+
+
+            .textbox1{
+                height: 250px; 
+                width: 700px; 
+               margin-top: 20px;
+               font-size: 20px;
+               border: 1px solid beige;
+                 }
+            .form{
+                height: 100px; 
+                width: 900px; 
+              
+               margin-top: 20px;
+               font-size: 20px;
+         
+            
+               
+
+            }
+            fieldset{
+                height: 70%;
+                width: 40%;
+            }
+            table {
+                height: 90%;
+                width: 95%;
+                
+            }
+    
+        
+        
+          
+    </style>
+</head>
+<body>
+
+    
+ <div class="contain">
+     <div class="header">
+            <div class="img1">
+                <img src="logo.png">
+            </div>
+
+                <div class="topnav">
+                    <a href="Home">Home</a>
+                    <a href="MAINHEADER.html">HTML</a>
+                    <a href="CSSHEADER.html">CSS</a>
+                    <a href="#about">Bootstrap</a>
+                    <a href="#about">JavaScript</a>
+                    <a href="#about">Jquery</a>
+                    <a href="#about">MiniProject</a>
+                    <a href="#about">SQL</a>
+                </div> 
+     </div>
+     <div class="center1">
+        <fieldset>
+            <legend></legend>
+            <h2 style="text-align: center; color:green; background-color: antiquewhite;" >STUDENT REPORT CARD</h2><hr><br>
+       <table border="2px " aria-describedby="table" >
+    
+    
+        <div class="name">
+            <label><strong>Name:</strong></label>
+        <input type="text" name="sname" style="float:right; margin-right:400px;">
+        </div><br>
+        <div class="fathername">
+            <label><strong>Father Name:</strong></label>
+            <input type="text" name="fname" style="float:right; margin-right:400px;">
+            </div><br>
+            
+            <div class="rollno">
+                <label><strong>Roll No:</strong></label>
+                <input type="text" name="rollno" style="float:right; margin-right:400px;">
+            </div><br>
+    
+            <div class="class">
+                <label><strong>Class:</b></strong>
+                <input type="text" name="rollno" style="float:right; margin-right:400px;">
+            </div><br>
+    
+            <div class="year">
+                <label><strong>Passing Year:</strong></label>
+                <input type="date" name="fname" style="float:right; margin-right:459px;">
+                </div><br><hr>
+        
+        <tr style="background-color:darkgoldenrod;">
+            <th id="sub">SUBJECT</th>
+            <th id="grade1">GRADE Q1</th>
+            <th id="grade2">GRADEQ2</th>
+            <th id="grade3">GRADE Q3</th>
+            <th id="grade4">GRADE Q4</th>
+    
+            </tr>
+            <tr>
+                <th id="sub1">SUBJECT 1</th>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td></tr>
+                <tr>
+                <th style="text-align: center;" id="sub2">SUBJECT2</th>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                </tr>
+                <tr>
+                <th style="text-align: center;" id="sub3">SUBJECT3</th>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">A</td>
+                </tr>
+                <tr>
+                <th style="text-align: center;" id="sub4">SUBJECT4</th>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                </tr>
+                <tr>
+                <th id="sub5">SUBJECT5</th>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">A</td>
+                </tr>
+                <tr>
+                <th id="sub6">SUBJECT6</th>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">A</td>
+                </tr>
+                <th id="overall">OVERALL SCORE</th>
+                <td style="text-align: center;">A</td>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">B</td>
+                <td style="text-align: center;">A</td><br>
+                <tr></table><br>
+                    <table border="2px" aria-describedby="table">
+                <tr style="background-color:palevioletred; text-align: center;" >
+                    <th id="attandance">ATTANDANCE</th>
+                    <th id="number">NUMBER</th>
+                  
+                   </tr>
+                   <tr>
+                    <td><strong>Days Present</strong></td>
+                    <td style="text-align: center;">120</td>
+                    
+                   </tr>
+                   <tr>
+                    <td><strong>Excused Absences</strong> </td>
+                    <td style="text-align: center;">4</td>
+                   </tr>
+                   <tr>
+                    <td><strong> Unexcused Absences</strong></td>
+                    <td style="text-align: center;">1</td>
+                   </tr>
+                   <tr>
+                    <td> <strong>Toal Absences</strong></td>
+                    <td style="text-align: center;">5</td>
+                   </tr>
+                    </table>
+                    
+    
+            
+        <br>
+    
+       <div class="feedbabk">
+        <label><strong>Teacher's Feedback:</strong></label></div><br>
+        <hr style="border: 1px dotted red;"><br>
+        <hr style="border: 1px dotted red;"><br>
+    
+       
+            <div class="principalsignature">
+                <label style="margin-right: 18%;"><strong>Principal Signature:</strong></label></div><br>
+    
+       </fieldset>
+      
+           
+     </div>
+     <div class="sidebar">
+        <ul>
+            <li>Day3</li>
+            <ul><li>Assigment</li>
+            <ul>
+                <li start="ciecle"><a href="#">Assigment1</a></li>
+            </ul></ul>
+            <ul>
+            <li star="circle">Practice</li>
+            <ul start="square">
+                <li><a href="DIFFRENTHTMLTAG.html">Practice1</a></li>
+                <li><a href="REPORTCARD.html">Practice2</a></li>
+            </ul>
+            </ul>
+        </ul>
+    </div>
+    <div class="container">
+     </div>
+
+
+ </div>
+</body>
+</html>
