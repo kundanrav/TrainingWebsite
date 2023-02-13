@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 38px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.header{
+  width: 100%;
+  height: 130px;
+  border: 1px solid black;
+  background-color: #82c9fe;
+}
+ul li{
+  list-style-type: none;
+  font-size: 30px;
+  text-decoration: none;
+
+  
+ 
+}
+
+li {
+  display: inline;
+  padding-left: 50px;
+  color: #4f2889;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<div class="header">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  
+ 
+</div>
+
+
+<div class="row"> 
+    <div class="column">
+        <img src="wedding.jpg">
+        <img src="rocks.jpg">
+        <img src="falls2.jpg">
+        <img src="paris.jpg">
+        <img src="nature.jpg">
+        <img src="mist.jpg">
+        <img src="paris.jpg">
+      </div>
+      <div class="column">
+        <img src="underwater.jpg">
+        <img src="ocean.jpg">
+        <img src="wedding.jpg">
+        <img src="mountainskies.jpg">
+        <img src="rocks.jpg">
+        <img src="underwater.jpg">
+      </div>
+      <div class="column">
+        <img src="wedding.jpg">
+        <img src="rocks.jpg">
+        <img src="falls2.jpg">
+        <img src="paris.jpg">
+        <img src="nature.jpg">
+        <img src="mist.jpg">
+        <img src="paris.jpg">
+      </div>
+      <div class="column">
+        <img src="underwater.jpg">
+        <img src="ocean.jpg">
+        <img src="wedding.jpg">
+        <img src="mountainskies.jpg">
+        <img src="rocks.jpg">
+        <img src="underwater.jpg">
+      </div>
+</div>
+
+</body>
+</html>
